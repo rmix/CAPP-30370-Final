@@ -1,0 +1,65 @@
+html { background-image:url('sneaker_mesh_fabric.png');
+	font-family:"Times New Roman";
+}
+
+@media screen {
+    img {max-width:100%;}
+    nav {max-width:100%;}
+    }
+    
+@media screen and (min-width:500px) {	
+	
+	.a {width:40%; float:left; padding:1em;}
+	.b {width:40%; float:left; padding:1em;}
+		.alum {clear:both; overflow:hidden;}
+	.vcard{clear:both}
+	}	
+
+@media screen and (min-width:900px) {	
+	.pic {width:20%; float:left; padding:1em;}
+		.alum {clear:both; overflow:hidden;}
+	.vcard{clear:both}
+	}
+	
+#reporter {padding:0 1em; color:#fff; background-color:#000;
+    position: fixed;
+    bottom: 50px;
+    right: 50px;}
+    	
+#footer {
+   position:relative;
+   bottom:10px;
+   font-family:"Times New Roman";
+	font-size:16px;
+	color: green;}
+
+h1 {font-family:"Times New Roman";
+	font-size:44px;
+	color:#00008B;
+	text-shadow: 3px 0px 5px #DAA520;
+}
+
+h2 {font-family:"Times New Roman";
+	font-size:30px;
+	color:#00008B;
+}
+
+h3 {font-family:"Times New Roman";
+	font-size:20px;
+	color:#00008B;
+}
+
+nav li {font-family:"Times New Roman";
+	font-size:24px;
+	color:#1E90FF;
+}
+
+nav ul {margin:1em; padding:1em; border:1em; list-style:none;}
+      nav li {display:inline-block;}
+      nav li a {display:block; padding:1em; color:#00008B; text-decoration:none; background-color:#DAA520;}
+      
+nav li a:hover {
+  background-color: green ;
+}
+
+	
